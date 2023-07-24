@@ -9,7 +9,6 @@ const Login = () => {
   const {signIn} = useContext(AuthContext);
     const location = useLocation()
     const navigate = useNavigate()
-    // useTitle('login')
     const from = location.state?.from?.pathname || '/'
     const handleLogin = event => {
         event.preventDefault()
@@ -33,11 +32,11 @@ const Login = () => {
 
   return (
     <div className="md:w-3/4 w-11/12 mx-auto my-20 grid gap-5 md:grid-cols-2 grid-cols-1">
-      <article>
-        <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+      <article className="flex items-center">
+        <img className="rounded-xl" src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
       </article>
 
-      <article className="border-2 rounded-md p-8 bg-slate-400">
+      <article className="border-2 rounded-md p-8 bg-[#bb9368]">
 
         <h1 className="text-center text-3xl font-bold ">Login Now</h1>
         <form onSubmit={handleLogin}>

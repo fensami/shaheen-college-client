@@ -7,7 +7,6 @@ const CollegeDetails = () => {
     <div>
      <div className="p-5 rounded-md bg-white" >
         <img className="rounded-xl w-1/2 mx-auto" src={data.college_image} alt="" />
-        {/* console.log(college); */}
        <div className="text-center">
        <p className="text-3xl font-semibold mt-5 uppercase text-center">{data.college_name}</p>
         <p className="mt-3"><span className="font-semibold text-xl ">Ratings : </span> {data.college_rating}</p>

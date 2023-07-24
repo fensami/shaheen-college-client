@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 
 const College = () => {
   const [colleges, setColleges] =useState([])
-  // console.log(colleges.name);
   useEffect(()=> {
-    fetch('http://localhost:5000/colleges')
+    fetch('https://shaheen-college-server.vercel.app/colleges')
     .then(res => res.json())
     .then(data => setColleges(data))
   },[])
@@ -17,7 +16,6 @@ const College = () => {
     
       {colleges.map((college, index)=> <div className="p-5 rounded-md bg-white" key={index}>
         <img className="rounded-xl w-11/12 h-1/2 mx-auto" src={college.college_image} alt="" />
-        {/* console.log(college); */}
        <div>
        <p className="text-3xl font-semibold mt-5 uppercase text-center">{college.college_name}</p>
         <p className="mt-3"><span className="font-semibold text-xl ">Ratings : </span> {college.college_rating}</p>

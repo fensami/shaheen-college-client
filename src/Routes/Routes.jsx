@@ -12,7 +12,6 @@ import MyCollege from "../Shared/MyCollege/MyCollege";
 import PrivateRoute from "./PrivateRoute";
 import Profile from "../Shared/Profile/Profile";
 import NotFound404 from "../Shared/NotFound404/NotFound404";
-// import Profile from "../Shared/Profile/Profile";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,18 +24,18 @@ const router = createBrowserRouter([
       {
         path: 'details/:detailsId',
         element: <PrivateRoute><Details></Details></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/clgcards/${params.detailsId}`)
+        loader: ({ params }) => fetch(`https://shaheen-college-server.vercel.app/clgcards/${params.detailsId}`)
       },
 
       { path: 'admission', element: <Admission></Admission> },
       { path: 'college', element: <College></College> },
       {
         path: 'collegeDetails/:collegeDetailsId', element:<PrivateRoute> <CollegeDetails></CollegeDetails></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.collegeDetailsId}`)
+        loader: ({ params }) => fetch(`https://shaheen-college-server.vercel.app/colleges/${params.collegeDetailsId}`)
       },
       {
         path: 'admission/:admissionId', element: <PrivateRoute><AdmissionInput></AdmissionInput></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/admission/${params.admissionId}`)
+        loader: ({ params }) => fetch(`https://shaheen-college-server.vercel.app/admission/${params.admissionId}`)
       },
       {
         path: 'mycollege', element: <PrivateRoute><MyCollege></MyCollege></PrivateRoute>

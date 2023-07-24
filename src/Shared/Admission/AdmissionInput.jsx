@@ -39,7 +39,7 @@ const AdmissionInput = () => {
       photoUrl
     }
     resetForm()
-   fetch('http://localhost:5000/allAdmissionCollege',{
+   fetch('https://shaheen-college-server.vercel.app/allAdmissionCollege',{
     method: "POST",
     headers: {
       'content-type' : 'application/json'
@@ -49,9 +49,9 @@ const AdmissionInput = () => {
    .then(res => res.json())
    .then(data => console.log(data))
    Swal.fire({
-    position: 'top-end',
+    position: 'top-center',
     icon: 'success',
-    title: 'Successfully added your toy',
+    title: 'Successfully applied',
     showConfirmButton: false,
     timer: 1500
   })
@@ -61,18 +61,16 @@ const AdmissionInput = () => {
 
   return (
     <div className="text-black">
-      {/* <h1>Field the input</h1>
-      <p>{college_name}</p> */}
+      
 
 
 
 
       <>
-        <div className="w-1/2  bg-[#bb9368] my-12 rounded-lg mx-auto px-4 py-8">
+        <div className="md:w-1/2  bg-[#bb9368] my-12 rounded-lg mx-auto px-4 py-8">
           <h1 className="text-3xl text-white font-bold mb-4 text-center"></h1>
           <form id="admissionForm" onSubmit={handleSubmit} className='font-bold'>
 
-            {/* <input type="text"  /> */}
             <div className=" mb-4">
               <label className="block mb-2 text-white">
                 College_Name

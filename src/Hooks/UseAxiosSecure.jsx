@@ -1,11 +1,10 @@
 import { useContext, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-// import { useAuth } from './useAuth';
 import { AuthContext } from '../Providers/AuthProvider';
 
 const axiosSecure = axios.create({
-  baseURL: 'http://localhost:5000', 
+  baseURL: 'https://shaheen-college-server.vercel.app', 
 });
 
 const useAxiousSecure = () => {

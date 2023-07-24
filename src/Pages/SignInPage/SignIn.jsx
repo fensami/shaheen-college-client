@@ -19,7 +19,7 @@ const SignIn = () => {
       navigate(from);
       updateUserProfile(data.displayName, data.photoURL).then(() => {
         const saveUser = { name: data.displayName, email: data.email };
-        fetch("http://localhost:5000/users", {
+        fetch("https://shaheen-college-server.vercel.app/users", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -33,56 +33,56 @@ const SignIn = () => {
   };
 
   return (
-    <div className="w-3/4 mx-auto my-20 grid gap-5 md:grid-cols-2 grid-cols-1">
-      <article>
-        <img
+    <div className="md:w-3/4 mx-auto my-20 grid gap-5 md:grid-cols-2 grid-cols-1 ">
+      <article className="flex items-center">
+        <img className="rounded-xl"
           src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
       </article>
 
-      <article className="border-2 rounded-md p-8 bg-slate-400">
+      <article className="border-2 rounded-md p-8 bg-[#bb9368]">
         <h1 className="text-center text-3xl font-bold">Sign In Now</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mt-5">
-            <h1 className="ml-2 font-semibold">Enter Your Name</h1>
+            <h1 className=" font-semibold">Enter Your Name</h1>
             <input
               {...register("displayName", { required: true })}
               type="text"
               name="displayName"
-              className="border-2 px-2 py-1 mt-2 font-semibold w-11/12"
+              className="border-2 px-2 py-1 mt-2 font-semibold w-11/12 rounded-lg"
               placeholder="Enter Your Name"
             />
           </div>
           <div className="mt-5">
-            <h1 className="ml-2 font-semibold">Photo</h1>
+            <h1 className="font-semibold">Photo</h1>
             <input
               {...register("photoURL", { required: true })}
               type="text"
               name="photoURL"
-              className="border-2 px-2 py-1 mt-2 font-semibold w-11/12"
+              className="border-2 px-2 py-1 mt-2 font-semibold w-11/12 rounded-lg"
               placeholder="Enter Your Photo URL"
             />
           </div>
 
           <div className="mt-8">
-            <h1 className="ml-2 font-semibold">Enter Your Email</h1>
+            <h1 className="font-semibold">Enter Your Email</h1>
             <input
               {...register("email", { required: true })}
               type="email"
               name="email"
-              className="border-2 w-11/12 px-2 py-1 mt-2 font-semibold"
+              className="border-2 w-11/12 px-2 py-1 mt-2 font-semibold rounded-lg"
               placeholder="Enter Your Email"
             />
           </div>
 
           <div className="mt-8">
-            <h1 className="ml-2 font-semibold">Password</h1>
+            <h1 className="font-semibold">Password</h1>
             <input
               {...register("password", { required: true })}
               type="password"
               name="password"
-              className="border-2 w-11/12 px-2 py-1 mt-2 font-semibold"
+              className="border-2 w-11/12 px-2 py-1 mt-2 font-semibold rounded-lg"
               placeholder="Password"
             />
           </div>

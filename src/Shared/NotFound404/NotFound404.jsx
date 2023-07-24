@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const NotFound404 = () => {
   return (
@@ -6,7 +7,7 @@ const NotFound404 = () => {
      <img className="relative" src="https://freefrontend.com/assets/img/tailwind-404-page-templates/404-page-not-found.png" alt="" />
      </div>
 
-      <p className="bg-white absolute bottom-44 right-[580px] p-3">Go Back to home page</p>
+      <Link to='/' className="bg-white absolute bottom-44 right-[580px] p-3">Go Back to home page</Link>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { AuthContext } from "../../Providers/AuthProvider";
 const Profile = () => {
   const {user} = useContext(AuthContext)
   return (
-    <div className="w-1/2 mx-auto border my-8 p-5 rounded-sm bg-[#bb9368]">
+    <div className="md:w-1/2 mx-auto border my-8 p-5 rounded-sm bg-[#bb9368]">
       <p className="text-center text-4xl font-semibold">Profile</p>
       <img src={user?.photoUrl} alt="" />
       <div>
