@@ -1,0 +1,157 @@
+[
+    {
+      "id": 1,
+      "name": "Dhaka College",
+      "image": "https://images.unsplash.com/photo-1650686316214-08c286e866f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGhha2ElMjBjb2xsZWdlJTJDJTIwZGhha2ElMkMlMjBiYW5nbGFkZXNofGVufDB8fDB8fHww&w=1000&q=80",
+      "admissionDates": "August 1 - September 30",
+      "events": [
+        {
+          "id": "event1",
+          "name": "Freshers' Welcome",
+          "date": "October 5, 2023",
+          "description": "Welcome new students to Dhaka College!"
+        },
+        {
+          "id": "event2",
+          "name": "Science Expo",
+          "date": "November 15, 2023",
+          "description": "Showcasing scientific innovations by students."
+        }
+      ],
+      "researchHistory": "Dhaka College is one of the oldest and most prestigious colleges in Bangladesh.",
+      "sports": ["Cricket", "Football", "Basketball", "Volleyball"]
+    },
+    {
+      "id": 2,
+      "name": "Chittagong College",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chittagong_College_Red_Building_Front_View_1.jpg/1200px-Chittagong_College_Red_Building_Front_View_1.jpg",
+      "admissionDates": "September 1 - October 31",
+      "events": [
+        {
+          "id": "event3",
+          "name": "Cultural Fest",
+          "date": "November 10, 2023",
+          "description": "Celebration of cultural diversity and talents."
+        },
+        {
+          "id": "event4",
+          "name": "Literary Symposium",
+          "date": "December 20, 2023",
+          "description": "An event dedicated to literature and creative writing."
+        }
+      ],
+      "researchHistory": "Chittagong College promotes research and intellectual development among students.",
+      "sports": ["Cricket", "Football", "Badminton", "Tennis"]
+    },
+    {
+      "id": 3,
+      "name": "Rajshahi College",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Administrative_building_of_Rajshahi_College_%2801%29.jpg",
+      "admissionDates": "July 15 - August 31",
+      "events": [
+        {
+          "id": "event5",
+          "name": "Art Exhibition",
+          "date": "September 25, 2023",
+          "description": "Showcasing artworks by talented students."
+        },
+        {
+          "id": "event6",
+          "name": "Sports Carnival",
+          "date": "October 10, 2023",
+          "description": "A fun-filled sports event for students."
+        }
+      ],
+      "researchHistory": "Rajshahi College encourages academic research and extracurricular activities.",
+      "sports": ["Cricket", "Football", "Volleyball", "Table Tennis"]
+    },
+    {
+      "id": 4,
+      "name": "Comilla Victoria Government College",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Comilla_Victoria_Govt._College_%282%29jpg.jpg/800px-Comilla_Victoria_Govt._College_%282%29jpg.jpg?20170718010947",
+      "admissionDates": "June 1 - July 31",
+      "events": [
+        {
+          "id": "event7",
+          "name": "Cultural Night",
+          "date": "August 15, 2023",
+          "description": "A night of cultural performances and festivities."
+        },
+        {
+          "id": "event8",
+          "name": "Debate Competition",
+          "date": "September 5, 2023",
+          "description": "An intellectual battle of ideas and arguments."
+        }
+      ],
+      "researchHistory": "Comilla Victoria Government College emphasizes academic excellence and cultural awareness.",
+      "sports": ["Cricket", "Football", "Basketball", "Hockey"]
+    },
+    {
+      "id": 5,
+      "name": "Barisal Government College",
+      "image": "https://pbs.twimg.com/media/ED2L_zuWkAA7lav.jpg:large",
+      "admissionDates": "February 1 - March 15",
+      "events": [
+        {
+          "id": "event9",
+          "name": "Science Exhibition",
+          "date": "April 5, 2023",
+          "description": "Display of scientific projects and experiments by students."
+        },
+        {
+          "id": "event10",
+          "name": "Cultural Program",
+          "date": "May 20, 2023",
+          "description": "A showcase of cultural performances by talented students."
+        }
+      ],
+      "researchHistory": "Barisal Government College encourages students to engage in scientific research and cultural activities.",
+      "sports": ["Cricket", "Football", "Basketball", "Volleyball"]
+    },
+    {
+      "id": 6,
+      "name": "Mymensingh Government College",
+      "image": "https://mgcm.gov.bd/wp-content/uploads/2019/12/FB_IMG_1576729197781-720x384.jpg",
+      "admissionDates": "January 1 - February 28",
+      "events": [
+        {
+          "id": "event11",
+          "name": "Science Fair",
+          "date": "March 15, 2024",
+          "description": "Exhibition of scientific innovations and discoveries."
+        },
+        {
+          "id": "event12",
+          "name": "Cultural Heritage Day",
+          "date": "April 10, 2024",
+          "description": "Celebrating the rich cultural heritage of Bangladesh."
+        }
+      ],
+      "researchHistory": "Mymensingh Government College promotes scientific research and cultural heritage.",
+      "sports": ["Cricket", "Football", "Basketball", "Volleyball"]
+    },
+    {
+      "id": 7,
+      "name": "Jessore Government City College",
+      "image": "https://scontent.fcgp32-1.fna.fbcdn.net/v/t39.30808-6/307139466_755018719246059_5709462820611302934_n.jpg?stp=dst-jpg_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFLEsxvT2ByJipHTPSBZc4tvDQSsAZaq-e8NBKwBlqr52lrSS4dBeLC-LLeHfN92CO6ZFnyR2zvCFPs8hkT46Q6&_nc_ohc=8U-ZmfLwBg0AX9zkTRd&_nc_ht=scontent.fcgp32-1.fna&oh=00_AfAGvGTqf2Q_i-2LIJ3RpAwwzS-uv6RfwLJFsCY76coUSQ&oe=64C1070E",
+      "admissionDates": "November 1 - December 31",
+      "events": [
+        {
+          "id": "event13",
+          "name": "Debate Competition",
+          "date": "January 25, 2024",
+          "description": "An intellectual debate among students."
+        },
+        {
+          "id": "event14",
+          "name": "Cultural Fest",
+          "date": "February 20, 2024",
+          "description": "A festival celebrating cultural diversity and talents."
+        }
+      ],
+      "researchHistory": "Jessore Government City College encourages intellectual growth and cultural participation.",
+      "sports": ["Cricket", "Football", "Basketball", "Volleyball"]
+    }
+  ]
+

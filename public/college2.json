@@ -1,0 +1,123 @@
+[
+    {
+      "college_id": 1,
+      "college_name": "Dhaka college",
+      "college_rating": 4.5,
+      "admission_date": "2023-09-01",
+      "research_count": 120,
+      "college_image": "https://tds-images.thedailystar.net/sites/default/files/feature/images/dhaka_university_01.jpg",
+      
+        "events": "Dhaka University hosts various events throughout the year, including cultural festivals, academic conferences, and student gatherings.",
+        "sports_facilities": "The college provides state-of-the-art sports facilities, including a sports complex, gymnasium, and multiple sports fields."
+      
+    },
+    {
+      "college_id": 2,
+      "college_name": "Chittagong College",
+      "college_rating": 4.2,
+      "admission_date": "2023-08-15",
+      "research_count": 80,
+      "college_image": "https://lh3.googleusercontent.com/p/AF1QipOMl5Q71daaLQiXFYvLwaduUmg-qAHm4-wL7qIV=s680-w680-h510",
+    
+        "events": "Chittagong College organizes annual sports meet, cultural events, and technical symposiums that attract participants from all over the country.",
+        "sports_facilities": "The college offers a variety of sports facilities, including a swimming pool, tennis courts, and a well-equipped fitness center."
+      
+    },
+    {
+      "college_id": 3,
+      "college_name": "Rajshahi college",
+      "college_rating": 4.7,
+      "admission_date": "2023-09-10",
+      "research_count": 150,
+      "college_image": "https://eng.campuslive24.com/uploads/shares/2021/rajshai_college-cl-2023-04-02-21-49-12.jpg",
+     
+        "events": "Rajshahi Institute celebrates its foundation day every year with cultural performances and award ceremonies to recognize academic excellence.",
+        "sports_facilities": "The college has excellent sports facilities, including an indoor stadium, cricket ground, and a jogging track."
+      
+    },
+    {
+      "college_id": 4,
+      "college_name": "Khulna college",
+      "college_rating": 4.0,
+      "admission_date": "2023-08-30",
+      "research_count": 60,
+      "college_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/KPC_building.jpg/350px-KPC_building.jpg",
+      
+        "events": "Khulna University hosts an annual tech fest that attracts participants from various colleges and industries.",
+        "sports_facilities": "The college offers a wide range of sports facilities, including a football field, basketball court, and a well-maintained track and field area."
+      
+    },
+    {
+      "college_id": 5,
+      "college_name": "Comilla College",
+      "college_rating": 4.3,
+      "admission_date": "2023-09-05",
+      "research_count": 100,
+      "college_image": "https://www.cgcc.edu.bd/images/slider/1558546669.jpg",
+    
+        "events": "Comilla College hosts an annual cultural extravaganza, along with regular seminars and workshops conducted by distinguished speakers.",
+        "sports_facilities": "The college provides excellent sports facilities, including a fully equipped gym, swimming pool, and outdoor sports courts."
+      
+    },
+    {
+      "college_id": 6,
+      "college_name": "Barisal college",
+      "college_rating": 4.1,
+      "admission_date": "2023-09-20",
+      "research_count": 90,
+      "college_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-10uW-cqzonrZdd3Bg_nKQFGlm9ZvZBFCRDgtFTIMyuv-4hKka9FstB1wMsMgS9VJPg&usqp=CAU",
+      
+        "events": "Barisal Institute hosts an annual science fair and literary festival that showcases the creativity and innovations of its students.",
+        "sports_facilities": "The college offers various sports facilities, including a cricket pitch, volleyball court, and a dedicated yoga center."
+      
+    },
+    {
+      "college_id": 7,
+      "college_name": "Sylhet college",
+      "college_rating": 4.4,
+      "admission_date": "2023-08-25",
+      "research_count": 110,
+      "college_image": "https://new-media.dhakatribune.com/en/uploads/2022/04/06/untitled-28-1601365289101.jpeg",
+     
+        "events": "Sylhet University arranges a cultural week every semester, featuring performances, art exhibitions, and culinary events.",
+        "sports_facilities": "The college provides excellent sports facilities, including a badminton hall, swimming pool, and jogging track."
+      
+    },
+    {
+      "college_id": 8,
+      "college_name": "Rangpur College",
+      "college_rating": 4.6,
+      "admission_date": "2023-09-15",
+      "research_count": 140,
+      "college_image": "https://www.rgc.gov.bd/wp-content/uploads/2015/05/banner02.jpg",
+    
+        "events": "Rangpur College encourages students to participate in community service projects and conducts social awareness campaigns.",
+        "sports_facilities": "The college offers various sports facilities, including a basketball court, cricket nets, and a modern fitness center."
+      
+    },
+    {
+      "college_id": 9,
+      "college_name": "Jessore college",
+      "college_rating": 4.3,
+      "admission_date": "2023-09-12",
+      "research_count": 100,
+      "college_image": "https://scontent.fcgp32-1.fna.fbcdn.net/v/t39.30808-6/306355935_591705379321385_4883915513068268964_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeET6-Fyns1FH5yCNWi0W6fq2pOj7Y97o1fak6Ptj3ujVwmFZ0jAU2COXf-fnPUZskAdC15fmPzsa2TXi2vFUS18&_nc_ohc=j0hGmj_GkdoAX-C2DMD&_nc_ht=scontent.fcgp32-1.fna&oh=00_AfAxi_BvYwOZJRu9nDjByZIoQTnmeQ8nElg429Ydax9iaw&oe=64C217E5",
+     
+        "events": "Jessore Institute celebrates its annual cultural fest with dance performances, music competitions, and fashion shows.",
+        "sports_facilities": "The college provides sports facilities, including a sports ground, indoor games room, and a table tennis area."
+      
+    },
+    {
+      "college_id": 10,
+      "college_name": "Mymensingh college",
+      "college_rating": 4.8,
+      "admission_date": "2023-09-08",
+      "research_count": 180,
+      "college_image": "https://www.mymenshinghnc.prantik-ngo.org/admin/public/images/sliders/1596625106.jpg",
+   
+        "events": "Mymensingh University hosts an annual research conference where students present their research findings to the academic community.",
+        "sports_facilities": "The college offers state-of-the-art sports facilities, including a modern sports complex and a swimming pool."
+      
+    }
+  ]
+
